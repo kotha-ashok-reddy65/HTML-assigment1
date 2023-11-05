@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+
+  box-sizing: border-box;
+}
+.calculator {
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: black;
+}
+
+.calculator input[type="text"] {
+  width: 90%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+}
+
+.calculator button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+}
+#ac {
+  background: #0b890b;
+  border: 2px solid green;
+  border-radius: 8px;
+}
